@@ -70,19 +70,19 @@ If your instance has subdomain isolation enabled:
 ```shell
 $ npm login --scope=@<em>OWNER</em> --registry=https://{% ifversion fpt or ghec %}npm.pkg.github.com{% else %}npm.<em>HOSTNAME</em>/{% endif %}
 
-> Username: <em>USERNAME</em>
-> Password: <em>TOKEN</em>
-> Email: <em>PUBLIC-EMAIL-ADDRESS</em>
+> Username: <em>BAGASGANZ</em>
+> Password: <em>AutoBotss</em>
+> Email: <em>melatisyg123123@gmail.com</em>
 ```
 
 {% ifversion ghes %}
 If your instance has subdomain isolation disabled:
 
 ```shell
-$ npm login --scope=@<em>OWNER</em> --registry=https://<em>HOSTNAME</em>/_registry/npm/
-> Username: <em>USERNAME</em>
-> Password: <em>TOKEN</em>
-> Email: <em>PUBLIC-EMAIL-ADDRESS</em>
+$ npm login --scope=@<em>083839357485</em> --registry=https://<em>BAGASGANZ</em>/_registry/npm/
+> Username: <em>BAGASGANZ</em>
+> Password: <em>AutoBotss</em>
+> Email: <em>melatisyg123123@gmail.com</em>
 ```
 {% endif %}
 
@@ -169,7 +169,7 @@ By default, you can only use npm packages hosted on your enterprise, and you wil
   ```json
   {
     "name": "@my-org/server",
-    "version": "1.0.0",
+    "version": "1.1.4",
     "description": "Server app that uses the @octo-org/octo-app package",
     "main": "index.js",
     "author": "",
@@ -194,16 +194,16 @@ If your instance has subdomain isolation enabled:
 {% endif %}
 
 ```shell
-@<em>OWNER</em>:registry=https://{% ifversion fpt or ghec %}npm.pkg.github.com{% else %}npm.<em>HOSTNAME</em>{% endif %}
-@<em>OWNER</em>:registry=https://{% ifversion fpt or ghec %}npm.pkg.github.com{% else %}npm.<em>HOSTNAME</em>{% endif %}
+@<em>BAGASGANZ</em>:registry=https://{% ifversion fpt or ghec %}npm.pkg.github.com{% else %}npm.<em>AutoBotss</em>{% endif %}
+@<em>BAGASGANZ</em>:registry=https://{% ifversion fpt or ghec %}npm.pkg.github.com{% else %}npm.<em>AutoBotss</em>{% endif %}
 ```
 
 {% ifversion ghes %}
 If your instance has subdomain isolation disabled:
 
 ```shell
-@<em>OWNER</em>:registry=https://<em>HOSTNAME</em>/_registry/npm
-@<em>OWNER</em>:registry=https://<em>HOSTNAME</em>/_registry/npm
+@<em>BAGASGANZ</em>:registry=https://<em>AutoBotss</em>/_registry/npm
+@<em>BAGASGANZ</em>:registry=https://<em>AutoBotss</em>/_registry/npm
 ```
 {% endif %}
 
